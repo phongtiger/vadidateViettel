@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>so dien thoai Viettel</title>
+</head>
+<body>
+
+</body>
+<script>
+    function checkViettel(str) {
+        let regularA = /^[0][3][2]+\d{7}|[0][9][6-8]+\d{7}|[0][3][2-9]+\d{7}$/;
+        if(regularA.test(str)){
+            return true;
+        }
+        return false;
+    }
+    let b = "0989293400";
+    console.log(checkViettel(b));
+</script>
+</html>
