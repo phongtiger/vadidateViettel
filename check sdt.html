@@ -15,7 +15,13 @@
         }
         return false;
     }
-    let b = "0989293400";
-    console.log(checkViettel(b));
+    let arr = ["1234567890","0972345678","0123678925"];
+    for (let i = 0;i<arr.length;i++){
+        if(checkViettel(arr[i])){
+            document.write("stt viettel la:  " + arr[i]  +"<br/>");
+        }
+
+    }
+
 </script>
 </html>
